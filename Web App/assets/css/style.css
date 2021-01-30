@@ -1,0 +1,14 @@
+:root {
+    --font-medium: 18px;
+}
+
+
+body {
+    margin: 0;
+    background: #c0cbda;
+}
+
+.body-text {
+    font-size: var(--font-medium);
+}
+

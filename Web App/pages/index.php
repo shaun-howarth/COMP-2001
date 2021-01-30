@@ -5,11 +5,11 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="..">
 
 
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta charset="UTF-8">
-    <title>Plymouth Crimes</title>
+    <title>Plymouth Crimes: 2003-2015</title>
 </head>
 
 <body>
