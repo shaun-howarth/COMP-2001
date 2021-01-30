@@ -4,7 +4,6 @@
     --font-medium: 18px;
     --font-large: 24px;
     --font-family: 'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
-
 }
 
 html, input, textarea {
@@ -18,13 +17,16 @@ body {
 }
 
 .body-text {
-    font-size: medium;
+    font-size: var(--font-small);
+}
+
+.subtitle-text {
+    font-size: var(--font-medium);
 }
 
 
-
 .title-text {
-    font-size: large;
+    font-size: var(--font-large);
 }
 
 
@@ -34,7 +36,6 @@ body {
 
 
 .body-card {
-
     background: #e8eee8;
     box-shadow: #696565;
     color: #4b4b4b;
@@ -44,6 +45,7 @@ body {
     border-radius: 10px;
     display: inline-block;
     font-size: var(--font-small);
+    vertical-align: top;
 }
 
 
@@ -53,7 +55,7 @@ body {
     color: white;
     font-size: var(--font-large);
     text-align: center;
-    padding: 25px 25px 25px 25px;
+    padding: 20px 20px 20px 20px;
     width: auto;
     display: block;
     margin-bottom: 15px;
