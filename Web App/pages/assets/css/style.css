@@ -2,7 +2,7 @@
 :root {
     --font-small: 16px;
     --font-medium: 18px;
-    --font-large: 21px;
+    --font-large: 24px;
     --font-family: 'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
 
 }
@@ -18,9 +18,14 @@ body {
 }
 
 .body-text {
-    font-size: var(--font-medium);
+    font-size: medium;
 }
 
+
+
+.title-text {
+    font-size: large;
+}
 
 
 .wrapper {
@@ -32,11 +37,24 @@ body {
 
     background: #e8eee8;
     box-shadow: #696565;
-    color: #7dbab1;
+    color: #4b4b4b;
     padding: 10px 10px 10px 10px;
     margin: 20px auto 0 20px;
     width: calc(50% - 20px - 20px - 10px);
     border-radius: 10px;
     display: inline-block;
     font-size: var(--font-small);
+}
+
+
+.title-card {
+    background: #498ea9;
+    box-shadow: #696565;
+    color: white;
+    font-size: var(--font-large);
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    width: auto;
+    display: block;
+    margin-bottom: 15px;
 }
