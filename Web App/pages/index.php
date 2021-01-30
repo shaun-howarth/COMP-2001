@@ -7,19 +7,29 @@
 <head>
 
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <meta charset="UTF-8">
     <title>Plymouth Crimes: 2003-2015</title>
 </head>
 
 <body>
 
+<span class="body-text">hello</span>
+
+
 
 <div class="wrapper">
-    <div class="title-card">
 
+    <div class="body-card">
+
+        <span class="body-text">Hello there</span>
     </div>
+
+
+
 </div>
+
+
 
 </body>
 </html>
