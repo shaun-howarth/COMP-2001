@@ -22,8 +22,17 @@ body {
 
 .subtitle-text {
     font-size: var(--font-medium);
+    font-weight: bold;
 }
 
+.subtitle-align {
+    text-align: center;
+}
+
+
+.margin-space {
+    padding: 30px 10px 0px 5px;;
+}
 
 .title-text {
     font-size: var(--font-large);
