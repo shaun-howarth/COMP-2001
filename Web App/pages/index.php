@@ -31,7 +31,7 @@
 
         <div class="margin-space">
             <div class="center-align">
-                <a href="">
+                <a href="./data.php">
                     <button class="page-button">Human Readable Format</button>
                 </a>
             </div>
