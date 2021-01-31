@@ -22,9 +22,29 @@
 
 <div class="wrapper">
 
-
     <div class="body-card">
-        <span class="subtitle-text">Dataset (CSV & Formatted)</span>
+
+        <div class="subtitle-align">
+            <span class="subtitle-text">Dataset (CSV & Formatted)</span>
+        </div>
+
+
+        <div class="margin-space">
+            <div class="center-align">
+                <a href="">
+                    <button class="page-button">Human Readable Format</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="margin-space">
+            <div class="center-align">
+                <a href="">
+                    <button class="page-button">.CSV</button>
+                </a>
+            </div>
+        </div>
+
     </div>
 
 
@@ -35,14 +55,19 @@
             <span class="subtitle-text">Dataset (In Original Format):</span>
         </div>
 
-        <div class="center-align">
-            <a href="https://plymouth.thedata.place/dataset/crime/resource/26904f63-e13a-450c-85c7-954b66229871">
-                <button class="page-button">Link to original Dataset</button>
-            </a>
+
+        <div class="margin-space">
+            <div class="center-align">
+                <a href="https://plymouth.thedata.place/dataset/crime/resource/26904f63-e13a-450c-85c7-954b66229871">
+                    <button class="page-button">Link to original Dataset</button>
+                </a>
+            </div>
         </div>
 
-        <div class="subtitle-align">
-            <span class="subtitle-text">Product Vision:</span>
+        <div class="margin-space">
+            <div class="subtitle-align">
+                <span class="subtitle-text">Product Vision:</span>
+            </div>
         </div>
 
         <div class="margin-space">
