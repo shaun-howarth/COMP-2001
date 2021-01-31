@@ -69,3 +69,29 @@ body {
     display: block;
     margin-bottom: 15px;
 }
+
+.page-button {
+    color: white;
+    background: #498ea9;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;font-size: medium;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    cursor: pointer;
+    height: 80px;
+    width: 160px;
+    border: none;
+    outline: none;
+    transition: 0.25s;
+}
+
+
+.page-button:hover {
+background: #2f6174;
+}
+
+.center-align {
+    text-align: center;
+    position: relative;
+}

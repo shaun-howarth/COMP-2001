@@ -32,15 +32,17 @@
     <div class="body-card">
 
         <div class="subtitle-align">
-            <span class="subtitle-text">Dataset (In Original Format)</span>
+            <span class="subtitle-text">Dataset (In Original Format):</span>
         </div>
 
-        <a href="https://plymouth.thedata.place/dataset/crime/resource/26904f63-e13a-450c-85c7-954b66229871">
-            <button>Link to original Dataset</button>
-        </a>
+        <div class="center-align">
+            <a href="https://plymouth.thedata.place/dataset/crime/resource/26904f63-e13a-450c-85c7-954b66229871">
+                <button class="page-button">Link to original Dataset</button>
+            </a>
+        </div>
 
         <div class="subtitle-align">
-            <span class="subtitle-text">Product Vision</span>
+            <span class="subtitle-text">Product Vision:</span>
         </div>
 
         <div class="margin-space">
