@@ -5,8 +5,6 @@
 <html lang="en">
 
 <head>
-
-
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <meta charset="UTF-8">
     <title>Plymouth Crimes: 2003-2015</title>
@@ -14,14 +12,15 @@
 
 <body>
 
+<!--Title card*/-->
 <div class="title-card">
     <span class="title-text">Crime - Plymouth 2003-2015 Dataset</span>
-
 </div>
 
 
 <div class="wrapper">
 
+    <!--Left body card-->
     <div class="body-card">
 
         <div class="subtitle-align">
@@ -48,7 +47,7 @@
     </div>
 
 
-
+    <!--right body card-->
     <div class="body-card">
 
         <div class="subtitle-align">

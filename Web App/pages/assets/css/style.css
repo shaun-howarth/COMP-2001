@@ -31,7 +31,7 @@ body {
 
 
 .margin-space {
-    padding: 20px 10px 0px 5px;;
+    padding: 20px 10px 0px 5px;
 }
 
 .title-text {
@@ -39,12 +39,12 @@ body {
     font-weight: bold;
 }
 
-
+/*Main Wrapper*/
 .wrapper {
     font-size: 0;
 }
 
-
+/*Formatting options for body card - where content items are placed on index.php page*/
 .body-card {
     background: #e8eee8;
     box-shadow: #696565;
@@ -58,7 +58,7 @@ body {
     vertical-align: top;
 }
 
-
+/*Formatting options for Title card area at the top of each web page*/
 .title-card {
     background: #e8eee8;
     box-shadow: #696565;
@@ -69,9 +69,9 @@ body {
     width: auto;
     display: block;
     margin-bottom: 15px;
-
 }
 
+/*Styling and formatting for all HTML buttons*/
 .page-button {
     color: white;
     background: #498ea9;
@@ -89,20 +89,22 @@ body {
     fill: #e8eee8;
 }
 
-
+/*Hover colour affect for all buttons*/
 .page-button:hover {
 background: #2f6174;
 }
+
 
 .dataPage-navbar {
     height: auto;
     width: 100%;
     text-align: center;
     position: relative;
-    vertical-align: top;
     font-size: 0;
+    margin: 20px auto 20px auto;
 }
 
+/*Styling and formatting for GitHub SVG icon logo within button on data.php page*/
 .svg-button {
     padding: 10px 10px 10px 10px;
     width: 50px;
@@ -113,10 +115,8 @@ background: #2f6174;
     margin-right: auto;
 }
 
-
-
+/*Center align formatting for wrapped content*/
 .center-align {
     text-align: center;
     position: relative;
-
 }
