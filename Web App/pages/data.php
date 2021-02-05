@@ -15,10 +15,8 @@
 
 <body>
 
-
 <!-- Title card(Navigation bar)-->
     <div class="title-card">
-
         <div class="dataPage-navbar">
             <div>
                 <a href="./index.php">
@@ -42,17 +40,16 @@
     </div>
 
 
-
-
-
-
 <div class="wrapper">
 
+    <!--PHP code for converting crime.csv file into HTML table-->
     <?php
     $header=true;
+    //table taking in directory location of .csv dataset file
     $handle = fopen("./assets/dataset/crime.csv", "r");
+    //Choosing table class name "table table-striped" from bootstrap
     echo '<table class="table table-striped">';
-    //display header row if true
+    //display table header row if true
     if ($header) {
         $csvcontents = fgetcsv($handle);
         echo '<tr>';
@@ -62,10 +59,10 @@
         echo '</tr>';
     }
 
-    // displaying contents
-
+    // displaying contents(data as stored within the .csv file
     while ($csvcontents = fgetcsv($handle)) {
         echo '<tr>';
+        //Reading in columns from .csv file to transfer them into HTML table format
         foreach ($csvcontents as $column) {
             echo "<td>$column</td>";
         }
@@ -75,11 +72,7 @@
     fclose($handle);
     ?>
 
-
-
 </div>
-
-
 
 </body>
 </html>
