@@ -87,6 +87,7 @@ body {
     outline: none;
     transition: 0.25s;
     fill: #e8eee8;
+    vertical-align: top;
 }
 
 /*Hover colour affect for all buttons*/
@@ -95,13 +96,8 @@ background: #2f6174;
 }
 
 
-.dataPage-navbar {
-    height: auto;
-    width: 100%;
-    text-align: center;
-    position: relative;
+.dpbutton-container {
     font-size: 0;
-    margin: 20px auto 20px auto;
 }
 
 /*Styling and formatting for GitHub SVG icon logo within button on data.php page*/
