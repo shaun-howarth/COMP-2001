@@ -1,12 +1,12 @@
 <?php
 
 header("Content-Type: application/json");
-
+//Array map being used to get data contents being used within .csv file
 $csv = array_map("str_getcsv", file("./assets/dataset/crime.csv"));
 $json = json_encode($csv);
 
 $i = 0;
-
+//Echo statements being used for converting .csv columns into JSON-LD code format
 echo "{" . '"@context"' . " : " . "{" . '"Place"' . " : " . '"http://schema.org/place"' . "}" . ", " . '"Place"' . " : " . "[" . "\n";
 foreach ($csv as &$value) {
     echo "{" . "\n";
