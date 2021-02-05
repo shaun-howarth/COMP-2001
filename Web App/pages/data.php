@@ -7,6 +7,9 @@
 <head>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
     <title>View Dataset: Human Readable Format</title>
 </head>
 
@@ -44,6 +47,33 @@
 
 
 <div class="wrapper">
+
+    <?php
+    $header=true;
+    $handle = fopen("./assets/dataset/crime.csv", "r");
+    echo '<table class="table table-striped">';
+    //display header row if true
+    if ($header) {
+        $csvcontents = fgetcsv($handle);
+        echo '<tr>';
+        foreach ($csvcontents as $headercolumn) {
+            echo "<th>$headercolumn</th>";
+        }
+        echo '</tr>';
+    }
+
+    // displaying contents
+
+    while ($csvcontents = fgetcsv($handle)) {
+        echo '<tr>';
+        foreach ($csvcontents as $column) {
+            echo "<td>$column</td>";
+        }
+        echo '</tr>';
+    }
+    echo '</table>';
+    fclose($handle);
+    ?>
 
 
 
