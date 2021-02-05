@@ -24,7 +24,7 @@
     <div class="body-card">
 
         <div class="subtitle-align">
-            <span class="subtitle-text">Dataset (CSV & Formatted)</span>
+            <span class="subtitle-text">Dataset (Human Readable & JSON-LD)</span>
         </div>
 
 
@@ -38,8 +38,8 @@
 
         <div class="margin-space">
             <div class="center-align">
-                <a href="">
-                    <button class="page-button">.CSV</button>
+                <a href="./JSON-LD.php">
+                    <button class="page-button">JSON-LD</button>
                 </a>
             </div>
         </div>
@@ -71,7 +71,7 @@
 
         <div class="margin-space">
             <span class="body-text">This linked data web application serves the purpose of displaying a chosen dataset in two different formats.
-                One being a human readable format (HTML table), and RDF format (CSV). The selected dataset contains data showing the amount and type of crime committed in Plymouth from the years 2003-2015.
+                One being a human readable format (HTML table), and RDF format (JSON-LD). The selected dataset contains data showing the amount and types of crime committed in Plymouth from the years 2003-2015.
             </span>
         </div>
     </div>
