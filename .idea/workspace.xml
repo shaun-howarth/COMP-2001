@@ -4,7 +4,6 @@
     <list default="true" id="7ad3e141-838b-45e2-8e46-e8935a3c323b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web App/pages/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web App/pages/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web App/pages/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web App/pages/data.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,12 @@
       <workItem from="1612470221719" duration="813000" />
       <workItem from="1612474536143" duration="908000" />
       <workItem from="1612525929339" duration="7448000" />
-      <workItem from="1612555756710" duration="662000" />
+      <workItem from="1612555756710" duration="978000" />
+      <workItem from="1612605525564" duration="170000" />
+      <workItem from="1612605805338" duration="10000" />
+      <workItem from="1612650134451" duration="591000" />
+      <workItem from="1612651798630" duration="327000" />
+      <workItem from="1612692629991" duration="239000" />
     </task>
     <servers />
   </component>

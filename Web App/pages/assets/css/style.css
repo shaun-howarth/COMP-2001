@@ -103,8 +103,8 @@ background: #2f6174;
 /*Styling and formatting for GitHub SVG icon logo within button on data.php page*/
 .svg-button {
     padding: 10px 10px 10px 10px;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     vertical-align: bottom;
     display: block;
     margin-left: auto;
